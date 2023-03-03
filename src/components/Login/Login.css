@@ -1,0 +1,36 @@
+
+.loginLayout {
+    background-color: #ab90f7;
+    height: 100vh;
+    position: relative;
+}
+
+.loginLayout input {
+    font-size: medium;
+}
+
+.loginLayout .submitBtn {
+    cursor: pointer;
+    padding: 3%;
+    color: white;
+    text-decoration: underline;
+    margin: 2% 0;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.loginLayout p {
+    font-size: small;
+    text-align: center;
+}
+.loginLayout p span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 425px) {
+    .loginLayout {
+        background-color: white;
+    }
+}
